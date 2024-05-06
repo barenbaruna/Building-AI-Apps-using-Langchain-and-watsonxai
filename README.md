@@ -58,7 +58,6 @@ In this notebook, the focus is on summarization tasks using Langchain. It demons
 
 To run these notebooks locally, make sure you have the necessary dependencies installed. You can install them using the provided requirements.txt file:
 
-    ```bash
     pip install -r requirements.txt
 
 
