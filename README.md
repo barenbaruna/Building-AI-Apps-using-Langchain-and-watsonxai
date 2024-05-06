@@ -1,5 +1,7 @@
 # Lab 105: Building AI apps with Langchain and watsonx.ai
 
+![Langchain Logo](https://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages/N2n095RVRuee985JPck4_langchain-logo-3-L.png)
+
 ## About
 
 Langchain is a framework designed to facilitate the development of complex AI-powered applications. It supports various language models and provides tools to manage intricate logic effectively, such as sending system and human instructions, dynamic prompts using templates, chaining, output parsing, and more.
