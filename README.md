@@ -32,34 +32,32 @@ Ensure Python >= 3.11 is installed. (Run `python3 --version`)
 
 - ChromaDB may require C++ build tools. Follow platform-specific instructions if installation issues arise.
 
-## Notebooks
-
-### langchain-intro.ipynb
-
-This notebook provides an introduction to programmatically using WatsonX.ai models through Langchain. It covers the following key aspects:
-
-1. Importing necessary dependencies.
-2. Initializing the WatsonX model.
-3. Using prompt templates and chains for generating text.
-4. Implementing simple sequential chains.
-5. Loading documents using Langchain for question-answering tasks.
-
-### langchain-summarization.ipynb
-
-In this notebook, the focus is on summarization tasks using Langchain. It demonstrates:
-
-1. Summarization of long documents using chunking and recursive summarization techniques.
-2. Importing dependencies and setting up the environment.
-3. Performing document summarization with Langchain, including different approaches such as 'stuff' and 'map reduce'.
-4. Combining prompt templates and chains for more sophisticated summarization tasks.
-5. Handling multiple documents and efficiently summarizing them using map-reduce techniques.
-
 ## Usage
 
-To run these notebooks locally, make sure you have the necessary dependencies installed. You can install them using the provided requirements.txt file:
+To run these notebooks locally, make sure you have the necessary dependencies installed.
 
-    pip install -r requirements.txt
+## Notebooks
 
+### Introduction to Langchain (langchain-intro.ipynb)
+
+This notebook serves as a comprehensive introduction to using Langchain programmatically with WatsonX.ai models. It covers:
+
+- **Dependencies Setup**: Importing necessary libraries and setting up environment variables.
+- **Initializing WatsonX Models**: Instantiating LLM models for text generation tasks.
+- **Prompt Templates & Chains**: Implementing prompt templates and chains for text generation, including basic and sequential chains.
+- **Loading & Processing Documents**: Demonstrating document loading and processing for NLP tasks, including PDF extraction.
+
+### Document Summarization with Langchain (langchain-summarization.ipynb)
+
+In this notebook, we delve into advanced document summarization tasks using Langchain. It includes:
+
+- **Summarization Techniques**: Exploring techniques for summarizing lengthy documents via chunking and recursive strategies.
+- **Dependencies Setup**: Setting up the environment and importing necessary dependencies for document summarization.
+- **Document Summarization**: Performing document summarization using Langchain, covering 'stuff' and 'map reduce' approaches.
+- **Advanced Summarization Techniques**: Implementing advanced summarization techniques with prompt templates and chains.
+- **Efficient Summarization of Multiple Documents**: Showcasing efficient summarization of multiple documents using map-reduce strategies.
+
+**Complete the lab by following the instructions in the notebook.**
 
 ## Support
 
