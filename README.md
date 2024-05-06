@@ -34,20 +34,33 @@ Ensure Python >= 3.11 is installed. (Run `python3 --version`)
 
 ## Notebooks
 
-### Part 1: langchain-intro.ipynb
+### langchain-intro.ipynb
 
-This notebook provides a gentle introduction to Langchain's capabilities, including initializing a model, changing inference parameters, using templates, chains, and loading documents.
+This notebook provides an introduction to programmatically using WatsonX.ai models through Langchain. It covers the following key aspects:
 
-### Part 2: langchain-summarization.ipynb
+1. Importing necessary dependencies.
+2. Initializing the WatsonX model.
+3. Using prompt templates and chains for generating text.
+4. Implementing simple sequential chains.
+5. Loading documents using Langchain for question-answering tasks.
 
-This notebook focuses on summarization of large amounts of text, which involves more intricate processes.
+### langchain-summarization.ipynb
 
-## Instructions for Workshop Participants
+In this notebook, the focus is on summarization tasks using Langchain. It demonstrates:
 
-- If attending a workshop, instructors will provide the URL for JupyterHub.
-- Sign up to set your password, then log in.
-- Follow the instructions provided in the respective notebooks.
-- If needed, refer to step 7 above to acquire values for environment variables.
+1. Summarization of long documents using chunking and recursive summarization techniques.
+2. Importing dependencies and setting up the environment.
+3. Performing document summarization with Langchain, including different approaches such as 'stuff' and 'map reduce'.
+4. Combining prompt templates and chains for more sophisticated summarization tasks.
+5. Handling multiple documents and efficiently summarizing them using map-reduce techniques.
+
+## Usage
+
+To run these notebooks locally, make sure you have the necessary dependencies installed. You can install them using the provided requirements.txt file:
+
+    ```bash
+    pip install -r requirements.txt
+
 
 ## Support
 
